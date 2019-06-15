@@ -1,4 +1,4 @@
-# ASCOM-PowerStatus-SafetyMonitor
+# ASCOM PowerStatus SafetyMonitor
 
 This is an ASCOM driver that implements the Safety Monitor functionality using the .NET SystemInformation.PowerStatus class.
 Computers with a battery - laptops - use this to keep track of the mains and battery states.
