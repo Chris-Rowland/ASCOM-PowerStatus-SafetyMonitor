@@ -102,13 +102,12 @@ namespace ASCOM.PowerStatus
                 System.Reflection.Assembly assem = System.Reflection.Assembly.GetExecutingAssembly();
                 var loc = Path.GetDirectoryName(assem.Location);
                 // shell the help file
-                System.Diagnostics.Process.Start(Path.Combine(loc, "PowerStatus Help.pdf"));
+                System.Diagnostics.Process.Start(Path.Combine(loc, "PowerStatusHelp.pdf"));
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Failed to show help file PowerStatus Help.pdf, error: " + ex.ToString());
+                MessageBox.Show("Failed to show help file PowerStatusHelp.pdf, error: " + ex.ToString());
             }
-
         }
 
         private void SetupDialogForm_HelpButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
