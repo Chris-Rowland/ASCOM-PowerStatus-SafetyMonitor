@@ -6,7 +6,7 @@ The driver checks a combination of the LinePower, BatteryStatus, Battery percent
 
 Further details as in the [PowerStatusHelp.pdf](PowerStatusHelp.pdf) file.
 
-To install download and run the PowerStatus Setup.exe file.
+To install download and run the <a href="PowerStatus Setup.exe" download> PowerStatus Setup </a> file.
 
 This will be useful for people with observatories who wish to monitor the power state so that their application software can initiate a close down, rendering the observatory safe, when there is a power failure.
 
